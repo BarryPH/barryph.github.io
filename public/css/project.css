@@ -1,0 +1,14 @@
+.section-header {
+	margin-bottom: 4rem;
+}
+
+.section-header:first-letter {
+	color: var(--color-primary);
+	font-size: var(--header-size-lg);
+}
+
+.project-text {
+	text-align: center;
+	margin-bottom: 5rem;
+	font-size: var(--text-size-lg);
+}

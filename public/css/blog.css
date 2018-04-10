@@ -1,0 +1,25 @@
+.blog-banner {
+	background: linear-gradient(to right bottom, #5032F2, #3255FB);
+	color: #fff;
+}
+
+.blog-header {
+	text-align: left;
+	margin: 0;
+	/* Compensate for mis centered font */
+	padding-bottom: 0.3rem;
+}
+
+.post {
+	max-width: var(--container-md);
+}
+
+.post-info {
+	padding-top: 0.8rem;
+}
+
+.post + .post {
+	border-top: 1px solid #eaeaea;
+	margin-top: 2.5rem;
+	padding-top: 2.5rem;
+}
